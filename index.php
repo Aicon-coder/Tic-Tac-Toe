@@ -3,6 +3,9 @@
 if ( $_SERVER["REQUEST_URI"] == "/") {
     readfile("home.html");
 
+} else if ( $_SERVER["REQUEST_URI"] == "/Core.js" ) {
+    readfile("Core.js" );  
+
 } else if ( $_SERVER["REQUEST_URI"] == "/cd-alert.js" ) {
     readfile("alert.js" );  
 
